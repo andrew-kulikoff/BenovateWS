@@ -1,0 +1,20 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-ear" name="ear:ear exploded">
+    <output-path>$PROJECT_DIR$/ear/target/benovateWS</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="ear/javaeeApplication/JavaEE" />
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/ear/target/benovateWS/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="archive" name="ejb-1.0.jar">
+        <element id="artifact" artifact-name="ejb:ejb exploded" />
+      </element>
+      <element id="library" level="project" name="Maven: com.oracle:ojdbc6:11.2.0.3.0" />
+      <element id="library" level="project" name="Maven: javax.ejb:javax.ejb-api:3.2" />
+      <element id="library" level="project" name="Maven: javax.transaction:javax.transaction-api:1.2" />
+      <element id="archive" name="web-1.0.war">
+        <element id="artifact" artifact-name="web:war exploded" />
+      </element>
+    </root>
+  </artifact>
+</component>
